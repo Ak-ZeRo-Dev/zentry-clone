@@ -1,6 +1,6 @@
 # Zentry Clone
 
-**[Demo](demo_url)**  
+**[zentry-clone-akzero.vercel.app](https://zentry-clone-akzero.vercel.app)**  
 A project focused on gaming animations using GSAP, Locomotive Scroll, and React.
 
 ---
