@@ -37,8 +37,12 @@ const useLocoScroll = () => {
       scrollTop(value) {
         if (locoScrollInstance) {
           return arguments.length
-            ? locoScrollInstance.scrollTo(value, 0)
-            : locoScrollInstance.scroll.instance.scroll.y;
+            ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-expect-error
+              locoScrollInstance.scrollTo(value, 0)
+            : // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-expect-error
+              locoScrollInstance.scroll.instance.scroll.y;
         }
         return null;
       },
@@ -46,8 +50,12 @@ const useLocoScroll = () => {
       scrollLeft(value) {
         if (locoScrollInstance) {
           return arguments.length
-            ? locoScrollInstance.scrollTo(value, 0, 0)
-            : locoScrollInstance.scroll.instance.scroll.x;
+            ? // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-expect-error
+              locoScrollInstance.scrollTo(value, 0)
+            : // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-expect-error
+              locoScrollInstance.scroll.instance.scroll.x;
         }
         return null;
       },

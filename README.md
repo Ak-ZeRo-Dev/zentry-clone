@@ -1,5 +1,4 @@
----
-# Gaming Animation
+# Zentry Clone
 
 **[Demo](demo_url)**  
 A project focused on gaming animations using GSAP, Locomotive Scroll, and React.
